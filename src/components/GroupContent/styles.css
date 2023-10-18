@@ -9,6 +9,7 @@
   display: flex;
   border: 1px solid blue;
   justify-content: space-between;
+  height: calc(100% / 3);
 }
 
 #non-jgp {
@@ -16,7 +17,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: cyan;
+  border: 1px solid blue;
 }
 
 #non-jgp h6 {
