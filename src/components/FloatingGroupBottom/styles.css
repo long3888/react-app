@@ -1,0 +1,42 @@
+#floating-group-bottom {
+  background-color: white;
+  border-top: 1px solid black;
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#floating-group-bottom img {
+  width: 200px;
+  height: 64px;
+  color: white;
+}
+
+#group-left {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+#custom-icon-button, #custom-toggle-button {
+  color: gray;
+}
+
+#custom-icon-button:hover, #custom-toggle-button:hover {
+  color: black;
+}
+
+#custom-toggle-button {
+  border-radius: 50%;
+  padding: 8px;
+  width: 40px;
+  height: 48px;
+}
+
+#custom-toggle-button.active {
+  border-color: red;
+  color: red;
+}

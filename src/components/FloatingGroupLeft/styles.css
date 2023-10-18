@@ -1,0 +1,44 @@
+#floating-group-left {
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+
+#header {
+  background-color: #00acd3;
+  color: white;
+  padding: 8px 12px 8px 24px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+#modal-container {
+  height: calc(100vh - 192px);
+  overflow-y: auto;
+}
+
+#modal-content {
+  background-color: #DAF3F8;
+  color: black;
+  padding: 8px 12px 8px 24px;
+  border-radius: 10px;
+  height: 48px;
+  transition: background-color 0.5s ease;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#modal-content:hover {
+  background-color: #b5eaf5
+}
+
+#current-time{
+  color: #00B97D;
+  font-size: 18px;
+  height: fit-content;
+}

@@ -1,0 +1,30 @@
+#group-header {
+  background-color: #2D2D2D;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#group-header img {
+  height: inherit;
+  color: white;
+}
+
+#group-right {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#group-right img {
+  border-radius: 50%;
+  width: 32px;
+  aspect-ratio: 1/1;
+  align-self: center;
+}
+
+#group-right div {
+  align-self: center;
+  color: white;
+}
