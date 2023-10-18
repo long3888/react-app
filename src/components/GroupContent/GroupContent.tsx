@@ -5,15 +5,15 @@ import "./styles.css";
 const GroupContent = () => {
   return (
     <div id="group-content">
-      <div>
+      <div className="group-content-child">
         <NonJGP />
         <NonJGP />
       </div>
-      <div>
+      <div className="group-content-child">
         <JGP />
         <JGP />
       </div>
-      <div>
+      <div className="group-content-child">
         <JGP />
         <JGP />
       </div>

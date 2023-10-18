@@ -3,15 +3,22 @@
   background-color: green;
   display: flex;
   flex-direction: column;
-
 }
 
-#group-content div {
+.group-content-child {
   display: flex;
   border: 1px solid blue;
   justify-content: space-between;
 }
 
-#jgp, #non-jgp {
-  width: 100%;
+#non-jgp {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+}
+
+#non-jgp h6 {
+  margin-bottom: 0px;
 }
